@@ -170,7 +170,7 @@ function App() {
 					<Row className='header my-3 p-3 mb-0 pb-0'>
 						<Col xs={12} md={12} lg={8} xxl={8}>
 							<h1>Rods Punkies</h1>
-							<p className='sub-header'>Available on 12 / 16 / 22</p>
+							<p className='sub-header'>Available on 12 / 16 / 23</p>
 						</Col>
 						<Col className='flex social-icons'>
 							<a
@@ -205,7 +205,7 @@ function App() {
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} className='countdown mx-3' />}
 							<p className='text'>
-								By attending the masterclass, Rod learned how to generate NFT images, upload to IPFS, create your NFT contract, and use OpenSea!
+								By attending the masterclass, I learned how to generate NFT images, upload to IPFS, create your NFT contract, and use OpenSea!
 							</p>
 							<a href="#about" className='button mx-3'>Learn More!</a>
 						</Col>
@@ -227,7 +227,7 @@ function App() {
 									<h3>Mint your NFT in</h3>
 									{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} className='countdown' />}
 									<ul>
-										<li>250 generated punked out images using an art generator</li>
+										<li>250 generated images using an art generator</li>
 										<li>Free minting on Goerli testnet</li>
 										<li>Viewable on Opensea shortly after minting</li>
 									</ul>

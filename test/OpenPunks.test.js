@@ -62,7 +62,7 @@ contract('OpenPunks', ([deployer, user]) => {
 
         it('Returns the max mint amount', async () => {
             result = await openPunks.maxMintAmount()
-            result.toString().should.equal('1')
+            result.toString().should.equal('5')
         })
 
         it('Returns the time deployed', async () => {
